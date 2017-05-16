@@ -51,27 +51,15 @@ Settings.providers = {
     movie: {
         order: 1,
         name: 'Movies',
-        uri: ['vodo', 'archive',
-          //'stremio?auth={"url":"http://api8.herokuapp.com","key":"423f59935153f2f5d2db0f6c9b812592b61b3737"}&url=http://localhost:9005'
+        uri: [
+          //'torrent9?type=movie'
         ]
     },
     tvshow: {
         order: 2,
         name: 'Series',
         uri: [
-            'youtube?channel=kurzgesagt',
-            'youtube?channel=devinsupertramp',
-            'youtube?channel=TEDtalksDirector',
-            'youtube?channel=BadLipReading',
-            'youtube?channel=1veritasium',
-            'youtube?channel=enyay', // tom scott
-            'youtube?channel=CinemaSins',
-            'youtube?channel=TomSka',
-            'youtube?channel=ExplosmEntertainment',
-            'youtube?channel=everyframeapainting',
-            'youtube?channel=willunicycleforfood', // exurb1a
-            //'youtube?channel=petercapusottotv&titleRegex=[0-9]+[aª] +Temporada',
-            'ccc'
+          'torrent9?type=tvshow'
         ]
     },
     subtitle: 'OpenSubtitles',
